@@ -5,7 +5,7 @@ import java.util.List;
 import model.dao.PessoaDao;
 import model.entities.Pessoa;
 
-public class PessoDaoJDBC implements PessoaDao{
+public class PessoaDaoJDBC implements PessoaDao{
 
 	@Override
 	public void insert(Pessoa obj) {
@@ -36,5 +36,6 @@ public class PessoDaoJDBC implements PessoaDao{
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
 
 }

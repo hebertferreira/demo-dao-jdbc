@@ -21,7 +21,7 @@ public class Programa {
 		/*Abaixo, PESSOADAO irá chamar a DAOFACTORY que tem referencia a INTERFACE que é a PESSOADAO 
 		*permitindo fazer uma injeção de dependencia */
 		
-		PessoaDao pessoaDao = DaoFactory.createPessoaDao(); 
+		PessoaDao pessoaDao = DaoFactory.createPessoaDao();
 	}
 
 }
